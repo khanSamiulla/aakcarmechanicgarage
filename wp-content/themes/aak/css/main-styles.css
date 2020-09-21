@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.font-18{
+    font-size: 18px;
+    line-height: 36px;
+}
+.font-20{
+    font-size: 20px;
+}
+
+.bold{
+    font-weight: bold;
+}
+.light-blue{
+    background: #07508c;
+}
+.light-blue-color{
+    color: #07508c;
+}
+.navbar-toggler.head-toggler{
+ /* background: #e6e6e6; */
+ background: #90ab38;
+}
+.navbar-nav .nav-item.active{
+    border-bottom: 2px solid #90ab38;
+    width: fit-content !important;
+}
+.navbar-nav .nav-item.active a{
+   color: #90ab38 !important;
+}
+.nav-item{
+    padding: 5px 20px;
+    font-size: 18px;
+}
+
+.aak-logo{
+    width: 140px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #555 !important;
+}
+.mobile-image{
+    display: none;
+}
+.home-banner{
+    position: relative;
+}
+.home-banner-content{
+    position: absolute !important;
+    top: 40%;
+    left: 0;
+    background: rgba(0,0,0,0.2);
+}
+.checkout-promotions-section{
+    background: #00796a;
+}
+.checkout-btn{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 0;
+    transition:  2s;
+    text-decoration: none;
+}
+.checkout-btn:hover{
+    border-radius: 50px;
+    transition:  2s;
+    text-decoration: none;
+}
+.btn-block .checkout-btn:hover{
+    color: #fff;
+}
+.checkout-promotions-section a:hover{
+    text-decoration: none;
+    background: #fff;
+    color: #009c9b;;
+}
+.bottom-line{
+    border-bottom: 0.5px solid;
+    padding: 15px;
+}
+.an-auto-repair-content-section .btn-block a:hover{
+    text-decoration: none;
+    background: #fff;
+    color: #07508c;
+}
+
+.home-page-service-icon{
+    width: 100px;
+    height: auto;
+    padding: 20px 0;
+}
+.card{
+    cursor:pointer;
+    transition:all .8s ease-in-out;
+    width: 100%;
+  }
+  .card:hover{
+    transform:scale(1.05);
+    box-shadow:10px 10px 10px #888888;
+  }
+  .home-service-btn{
+      background: #07508c !important;
+      color: #fff !important;
+      border-radius: 0;
+  }
+  .home-service-btn.btn{
+      border-radius: 0 !important;
+      width: 100%;
+  }
+ .mb-70{
+     margin-bottom: 70px;
+ }
+ .service-heading{
+     font-size: 28px;
+     color: #fff;
+ }
+ .service-image-block{
+    margin-bottom: 20px;
+    transition:all 1.2s ease-in-out;
+    -webkit-transition:all 1.2s ease-in-out;
+    -moz-transition:all 1.2s ease-in-out;
+    -ms-transition:all 1.2s ease-in-out;
+    -o-transition:all 1.2s ease-in-out;
+ }
+ .service-image-block:hover{
+    transform:rotateY(180deg);
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+    -o-transform:rotateY(180deg);
+ }
+ .type-of-cars-heading{
+    font-size: 40px;
+ }
+ .hr-line{
+     border-top: 4px solid #07508c;
+ }
+ .promo-left-card{
+     background: #398e3d;
+     clip-path: polygon(0 0, 100% 0%, 76% 100%, 0% 100%);
+      
+ }
+ .promo-price{
+     font-size: 60px;
+ }
+ ul li{
+     list-style-type: none;
+ }
+ .promo-left-card ul li:before {
+    content: ' \21DB';
+    padding: 10px;
+    font-weight: bold;
+      
+}
+.promo-service-heading{
+    font-size: 30px;
+}
+.promo-service-list li{
+    font-size: 22px;
+}
+.promo-card{
+    padding: 10px 0;
+}
+.owl-carousel-section{
+    position: relative;
+}
+.owl-carousel-section .owl-carousel{
+    padding: 20px 40px;
+}
+.owl-carousel-section .owl-carousel .owl-item{
+    padding: 20px 50px;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+ .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.owl-carousel .owl-nav button span{
+    font-size: 40px;
+    color: #07508c;
+    padding: 0 30px;
+}
+
+.promotions-image-block{
+    position: relative;
+    border: 2px solid #07508c;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #07508c;
+}
+.promotions-content-block{
+    position: absolute !important;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+}
+.promotions-content-block ul li:before {
+    content: ' \21DB';
+    /* content: '\2192'; */
+    padding: 0 20px;
+    font-weight: bold;
+      
+}
+.price-number{
+    font-size: 50px;
+    font-weight: 700;
+}
+.price-letter{
+    font-size: 24px;
+    font-weight: 700;
+}
+.promo-service-title{
+    font-size: 32px;
+}
+
+.checkout-promotion{
+    text-decoration: none !important;
+}
+.checkout-promotion:hover{
+    color: #fff;
+}
+
+.contact-us-banner-block{
+    position: relative;
+}
+.contact-us-content-block{
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.2);
+    height: 100%;
+}
+.contact-us-main-heading{
+    font-size: 60px;
+    border-bottom: 2px solid;
+    width: fit-content;
+    line-height: 90px;
+}
+.contact-us-main-heading span{
+    font-size: 30px;
+}
+
+.contact-us-sub-heading{
+    font-size: 30px;
+    margin: 30px 0;
+}
+.contact-details-icons span{
+    padding: 0 20px
+}
+.email-block{
+    word-break: break-word;
+}
+
+.home-carousel-card{
+    background: #07508c;
+    color: #fff;
+    border: 2px solid #07508c;
+}
+
+
+
+
+  @media (min-width: 320px) and (max-width: 767px){
+    .mobile-image{
+        display: block;
+    }
+    .desktop-image{
+        display: none;
+    }
+    .service-heading{
+        font-size: 20px;
+    }
+    .promo-price{
+        font-size: 30px;
+    }
+    .promo-service-heading{
+        font-size: 20px;
+    }
+    .promo-service-list li{
+        font-size: 16px;
+    }
+    .image-row{
+        padding: 20px;
+        text-align: center;
+    }
+    .promotions-content-block{
+        position: relative !important;
+        background: #90ab38;
+    }
+    .owl-carousel-section .owl-carousel .owl-item{
+        padding: 20px;
+    }
+    .contact-us-content-block{
+        position: relative !important;
+        padding: 30px 0;
+        background: rgba(0,0,0,0.7);
+    }
+    .contact-us-main-heading{
+        font-size: 30px;
+        line-height: normal;
+    }
+    .contact-us-main-heading span{
+        font-size: 20px;
+        margin: 15px 0;
+    }
+    
+    .contact-us-sub-heading{
+        font-size: 20px;
+        margin: 30px 0;
+    }
+    .price-number{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .price-letter{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .promo-service-title{
+        font-size: 18px;
+    }
+    
+  }
+  @media (min-width: 768px) and (max-width: 1024px){
+    .promo-price{
+        font-size: 30px;
+    }
+    .promo-service-heading{
+        font-size: 20px;
+    }
+    .promo-service-list li{
+        font-size: 16px;
+    }
+  }
